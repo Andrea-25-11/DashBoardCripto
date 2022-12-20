@@ -1,7 +1,9 @@
+// Se importa el footer
+
 import React from 'react'
 import './Footer.css'
-import LogoNicolas from './img/LogoNicolas.svg'
 
+// Se exporta el footer el cual contendrá dos divs para contener texto acerca de las políticas de privacidad
 export default function Footer() {
   return (
     <div className='Footer'>
@@ -15,13 +17,6 @@ export default function Footer() {
                     <p>© 2022</p>
         </div>
 
-        <div className='footer-down'>
-          <p>Developed by</p>
-
-          <div>
-            <img src={LogoNicolas} alt="Logo Nicolas" />
-          </div>
-        </div>
       </div>
     </div>
   )

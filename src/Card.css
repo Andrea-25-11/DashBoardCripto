@@ -1,9 +1,11 @@
+{/* Estilos del componente card */}
+
 .card{
     display: grid;
     grid: 1fr;
     place-items: center;
     gap: 10px;
-    background-color: #02735E;
+    background-color: #810CA8;
     width: 100%;
     border-radius: 20px;
     padding: 15px 20px;

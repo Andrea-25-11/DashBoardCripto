@@ -1,8 +1,12 @@
+
+// Se importan funciones desde App.js y la funcionalidad de los gráficos
 import React from 'react'
 import './CoinRow.css'
 import {deleteDec, colorDec, numberF} from './App'
 import Graph from './Graph'
 
+/// Estas son cada una de las filas que va a ocnformar la tabla de las primeras 4 monedas mejor valorizadas en el mercado de monedas. El export en funciones nombradas, se refiere a que se exporta la sentencia especifica que esta maneje.
+// Se le pasa como parametros destructurados la moneda y su indice correspondiente.
 export default function CoinRow({coin, index}) {
   return (
     <tr>

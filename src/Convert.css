@@ -1,8 +1,9 @@
+{/*Estilos convert*/}
 :root{
     --url: "ds";
   }
   .contenedor {
-    background-color: rgb(4 217 157 / 0.21);
+    background-color: #810CA8;
     padding: 20px 30px 30px;
     border-radius: 10px;
     width: 85%;

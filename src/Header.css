@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Readex Pro', sans-serif;
 }
   .app-header {
     display: flex;
     align-items: center;
-    background-color: #01403a;
+    background-color: #2D033B;
     color: white;
     font-size:clamp(1rem,4vw,2.5rem);
     line-height: 56px;
@@ -16,7 +18,8 @@
     font-family: "Roboto", sans-serif;
     margin: 2%;
     font-weight: 700;
-    font-size: 21px;
+    font-size: 50px;
+    font-family: 'Readex Pro', sans-serif;
   }
   .select-button{
     width: 50%;

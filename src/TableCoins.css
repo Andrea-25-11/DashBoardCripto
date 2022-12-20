@@ -1,6 +1,6 @@
 .table_coins {
     width: 90%;
-    margin: 50px auto;
+    margin: 50px auto; 
 }
 
 .table_coins thead {
@@ -17,7 +17,7 @@
 }
 
 .table_coins tbody td {
-    display: block;
+    display: flex;
     text-align:center;
     margin: 10px 0;
 }
@@ -33,7 +33,7 @@
         width: 80%;
         margin: auto;
         padding: 30px 30px 80px;
-        display: block;
+        text-align: center;
         overflow-x: auto;
     }
 

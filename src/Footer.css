@@ -1,3 +1,4 @@
+{/* Se aplican estilos al footer */}
 *{
     margin: 0; padding: 0;
     box-sizing: border-box;
@@ -11,16 +12,14 @@ body{
     height: auto;
     width: 100%;
     padding: 40px 15px;
-    background-color: #01403A;
+    background-color: #2D033B;
     display: grid;
     grid-auto-columns: 1rem;
     grid-template-columns: repeat(1, minmax(min(100%, 50%),1fr));
     row-gap: 1rem;
     color: white;
 }
-.Footer img{
-    margin: 0 15px;
-}
+
 .footer-up{
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -43,25 +42,10 @@ body{
 .footer-c p:last-of-type{
     font-size: 1.4rem;
 }
-.footer-down{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.footer-down p{
-    margin-right: 25px;
-    font-size: 1.6rem;
-    font-weight: bold;
-}
-.Footer img:last-of-type{
-    height: 60px;
-}
+
 @media screen and (max-width: 768px) {
     .Footer{
         row-gap: 0;
-    }
-    .Footer img{
-        width: 50px;
     }
     .footer-up{
         grid-template-columns: 1fr;
@@ -77,15 +61,6 @@ body{
         text-align: center;
         justify-content: center;
         margin: 10px 0;
-    }
-    .footer-down{
-        display: flex;
-        flex-direction: column;
-    }
-    .footer-down p{
-        text-align: center;
-        padding: 10px;
-        margin-right: 0;
     }
 }
 
